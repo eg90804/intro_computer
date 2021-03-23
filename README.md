@@ -20,8 +20,8 @@ Memory organisation: 12 bit words.
                                               1XXX = ADD  6XXX = STRI 
                                               2XXX = ISZ  7001 = IAC  7440 = SIZ
             Instruction-set of computer : >>> 3XXX = STR  7040 = CMA  7500 = SIM
-	                                            4XXX = ADDI 7200 = CLA  7510 = SIP
-	                                            5XXX = JMP  7402 = HLT
+	                                      4XXX = ADDI 7200 = CLA  7510 = SIP
+	                                      5XXX = JMP  7402 = HLT
 
 Also is the documentation and description of the 'intro computer'. a program originally
 writte by Mr. Jan Posthuma and translated into English by Mr. Dick Biesboer, both
@@ -29,7 +29,7 @@ workng for the Education department of DEC Utrecht, the Netherlands.
 
 There are 2 versions of the program.
   - cpu52.mac is the original one which has been re-typed from a paper listing and
-    uses the VT52 mode of a VT-100/
+    uses the VT52 mode of a VT-100.
   - cpu101,mac is my version, which ahs been adapted to make use of native VT-100 mode,
     as well as some changed graphics, flow lines and re-organised code.
     
