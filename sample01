@@ -1,0 +1,12 @@
+Just a very simple program to try.
+
+
+Address  Data  Instr  Remark
+0000     7200  CLA    CLear Accumulator
+0001     3010  STR    SToRE accumulator at location 0010
+0002     2010  ISZ    Increment memory location 0010 by one
+0003     7001  IAC    Increment ACcumulator by one
+0004     1010  ADD    ADD accumulator to memort location 0010
+0005     7440  SIZ    SkIp if Zero (to 0007)
+0006     5001  JMP    JuMP to location 0001
+0007     7402  HLT    HaLT
